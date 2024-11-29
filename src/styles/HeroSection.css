@@ -1,0 +1,41 @@
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image:linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url('/public/images/bg-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    overflow: hidden; /* Prevent scrolling if anything overflows */
+    box-sizing: border-box;
+    color: white;
+}
+
+.hero-left h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+.hero-left p{
+    font-size:1.25rem ;
+    margin-bottom: 1.5rem;
+}
+.hero-right img{   
+    /* width: 60%;
+    height: 60%; */
+    width: 520px;
+    height: 520px;
+    animation: rotate 60s linear infinite;
+}
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
