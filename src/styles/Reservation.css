@@ -1,0 +1,96 @@
+.reservation-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 2rem; */
+    background-color: #0e1325;
+    color: #fff;
+  }
+  
+  .reservation-image {
+    position: relative;
+    width: 50%;
+    
+  }
+  
+  .reservation-image img {
+    width: 100%;
+    min-width: 620px;
+    min-height: 509px;
+    
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(254, 161, 22, 0.9);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .play-button .circle i {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .reservation-content {
+    width: 50%;
+    padding: 3rem;
+    text-align: left;
+  }
+  
+  .reservation-subtitle {
+    margin-bottom: 0.5rem;
+    color: #fea116;
+  }
+  
+  .reservation-title {
+    
+    margin-bottom: 1.5rem;
+  }
+  
+  .reservation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  input,
+  select,
+  textarea {
+    flex: 1;
+    padding: 1rem 0.75rem;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .book-now-btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #fea116;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now-btn:hover {
+    background-color: #ff8c00;
+  }
+  

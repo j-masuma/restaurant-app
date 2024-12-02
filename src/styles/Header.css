@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding:1rem 2rem;
+    background-color: black;
     
 }
 .logo{
@@ -20,7 +21,7 @@
 }
 .navlinks{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .navlinks:hover{
     color:  #FEA116;

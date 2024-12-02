@@ -8,7 +8,7 @@ function Header() {
     <header className='header'>
       <div>
         <Link className='logo'>
-          <h4>Restoran</h4>
+          <h4>Mili Restoran</h4>
         </Link>
       </div>
       <nav >

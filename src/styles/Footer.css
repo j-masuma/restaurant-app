@@ -1,0 +1,39 @@
+.footer-container{
+    background-color: black;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+   
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.footer-title{
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(187, 187, 187);
+}
+.contact-icons svg{
+    margin-right: 1rem;
+}
+.bottom{
+    margin: 0 1rem;
+}
+.copyright{
+    padding: 2rem 1rem;
+    text-align: center;
+}

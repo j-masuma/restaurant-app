@@ -1,0 +1,31 @@
+.service-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 16px;
+
+}
+.service-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 210px;
+    height: 250px;
+    border: 1px solid white;
+    padding: 24px;
+    padding-top: 16px;
+    box-shadow: 0 2px 4px rgba(123, 122, 122, 0.2);
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease; 
+}
+.service-card h5{
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.service-card p{
+    margin-bottom: 16px;
+}
+.service-card:hover{
+    background: #FEA116;
+    color: white;
+    transform: scale(1.05);
+}

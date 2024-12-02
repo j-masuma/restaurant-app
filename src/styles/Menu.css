@@ -1,0 +1,53 @@
+.menu-sec{
+    text-align: center;
+}
+.menu-sec h5{
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+.menu-sec h1{
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.category .c-1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.menu-part2{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 2rem 0; 
+    gap: 1rem;
+}
+.menu-list{
+    flex: 0 1 calc(50% - 2.5rem);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.li-des h5{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+.li-des hr{
+    margin-bottom: 0.5rem;
+}
+.li-des small{
+    font-size: 14px;
+    color: #6c757d;    ;
+}
+.price{
+    color: #FEA116;
+}
