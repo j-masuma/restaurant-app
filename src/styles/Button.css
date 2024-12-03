@@ -10,3 +10,15 @@
     cursor: pointer;
 
 }
+
+.big-btn{
+    padding: 1rem 3rem;
+    background-color: #FEA116;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    border-color: #FEA116;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}

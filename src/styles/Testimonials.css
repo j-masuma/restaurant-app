@@ -56,3 +56,12 @@
     background-color: #ff8c00;
     transform: scale(1.2);
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+    .test-cards {
+        min-width: fit-content;
+    }
+}

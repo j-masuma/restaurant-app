@@ -1,8 +1,9 @@
 .service-section{
     display: flex;
-    justify-content: space-around;
-    padding: 4rem 16px;
-
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4rem 0rem;
+    gap: 1rem;
 }
 .service-card{
     display: flex;
@@ -28,4 +29,11 @@
     background: #FEA116;
     color: white;
     transform: scale(1.05);
+}
+
+@media screen and (max-width: 570px){
+    .service-card{
+        width: 90%;
+        margin: 1.5rem;
+    }
 }

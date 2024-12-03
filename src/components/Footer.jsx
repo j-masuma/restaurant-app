@@ -21,6 +21,13 @@ function Footer() {
             <Link className='nav-link'>Contact us</Link>
             <Link className='nav-link'>Reservations</Link>
           </nav>
+
+          <nav className='footer-links'>
+            <h5 className='footer-title'>COMPANY</h5>
+            <Link className='nav-link'>About us</Link>
+            <Link className='nav-link'>Contact us</Link>
+            <Link className='nav-link'>Reservations</Link>
+          </nav>
           
           <nav className='footer-links'>
           <h5 className="footer-title">Social</h5>

@@ -1,21 +1,26 @@
 import React from 'react'
 import '../styles/About.css'
-import Button from './Button'
+import { BigButton } from './Button'
 function About() {
   return (
     <div className='about-section'>
         <div className='ab-1'>
-          <div>
-            <img src="/images/about-1.jpg" width={259} height={259} alt="About" />
+          <div className='img'>
+              <div className='img-1'>
+                <img src="/images/about-1.jpg" width={259} height={259} alt="About" />
+              </div>
+              <div className='img-2'>
+                <img src="/images/about-2.jpg" width={195} height={195} alt="About" />
+              </div>
           </div>
-          <div className='img-2'>
-            <img src="/images/about-2.jpg" width={195} height={195} alt="About" />
-          </div>
-          <div>
-            <img src="/images/about-3.jpg" width={195} height={195} alt="About" />
-          </div>
-          <div>
-            <img src="/images/about-4.jpg" width={259} height={259} alt="About" />
+          
+          <div className='img'>
+              <div className='img-3'>
+                <img src="/images/about-3.jpg" width={195} height={195} alt="About" />
+              </div>
+              <div className='img-1'>
+                <img src="/images/about-4.jpg" width={259} height={259} alt="About" />
+              </div>
           </div>
 
         </div>
@@ -43,7 +48,7 @@ function About() {
               </div>
             </div>
             <div>
-            <Button text="READ MORE"/>
+            <BigButton text="READ MORE"/>
             </div>
         </div>
     </div>

@@ -1,10 +1,15 @@
 import React from 'react'
 import '../styles/Button.css'
 
-function Button({text}) {
+export default function Button({text}) {
   return (
     <button className='btn'>{text}</button>
   )
 }
 
-export default Button
+export function BigButton({text}) {
+  return (
+    <button className='big-btn'>{text}</button>
+  )
+}
+

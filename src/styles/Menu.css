@@ -12,12 +12,13 @@
 .category{
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 .category .c-1{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     text-align: left;
     margin-bottom: 1rem;
 }
@@ -50,4 +51,12 @@
 }
 .price{
     color: #FEA116;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .menu-list{
+        flex: 0 1 calc(80%);
+    }
 }

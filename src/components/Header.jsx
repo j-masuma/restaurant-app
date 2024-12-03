@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import '../styles/Header.css'
 import Button from './Button'
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
   return (
     <header className='header'>
       <div>
@@ -11,8 +16,13 @@ function Header() {
           <h4>Mili Restoran</h4>
         </Link>
       </div>
-      <nav >
-        <ul className='nav'>
+      <button className="menu-toggle" onClick={toggleMenu}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </button>
+      <nav className={`nav ${menuOpen ? 'nav-open' : ''}`}>
+        <ul>
           <li >
             <NavLink className='navlinks'>HOME</NavLink>
           </li>
@@ -28,11 +38,14 @@ function Header() {
           
         </ul>
       </nav>
-      <div>
+      <div className='button-container'>
         <Button text="BOOK A TABLE"/>
       </div>
+      
     </header>
   )
 }
 
 export default Header
+
+

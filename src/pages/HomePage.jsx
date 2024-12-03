@@ -12,7 +12,7 @@ function HomePage() {
     <div>
       <HeroSection/>
       <Service/>
-      <About/>
+      {/* <About/> */}
       <Menu/>
       <Reservation/>
       <Team/>
