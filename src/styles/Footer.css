@@ -1,6 +1,7 @@
 .footer-container{
     background-color: black;
     color: white;
+    margin-top: 3rem;
 }
 .footer{
     display: flex;
@@ -46,7 +47,7 @@
 @media screen and (max-width: 476px) {
     .footer{
         flex-direction: column;
-        margin: 3rem;
+        margin: 3rem 0rem;
     }
     .footer-links{
         margin-bottom: 2rem;
