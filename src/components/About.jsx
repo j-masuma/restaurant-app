@@ -23,31 +23,33 @@ function About() {
           </div>
 
         </div>
-        <div className='ab-2'>
-            <h5>about us_____</h5>
-            <h1>Welcome to Restoran</h1>
-            <p>
-            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.
-            </p>
-            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-            <div className='exp-sec'>
-              <div className='exp1'>
-                <h1>15</h1>
-                <div>
-                  <p>Years of</p>
-                  <h5>EXPERIENCE</h5>
+        <div className='ab-2-main'>
+            <div className='ab-2'>
+                <h5 className='abt-mini'>about us_____</h5>
+                <h1 className='abt-head'>Welcome to Restoran</h1>
+                <p>
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.
+                </p>
+                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                <div className='exp-sec'>
+                  <div className='exp1'>
+                    <h1>15</h1>
+                    <div>
+                      <p>Years of</p>
+                      <h5>EXPERIENCE</h5>
+                    </div>
+                  </div>
+                  <div className='exp1'>
+                    <h1>15</h1>
+                    <div>
+                      <p>Years of</p>
+                      <h5>EXPERIENCE</h5>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className='exp1'>
-                <h1>15</h1>
                 <div>
-                  <p>Years of</p>
-                  <h5>EXPERIENCE</h5>
+                <BigButton text="READ MORE"/>
                 </div>
-              </div>
-            </div>
-            <div>
-            <BigButton text="READ MORE"/>
             </div>
         </div>
     </div>

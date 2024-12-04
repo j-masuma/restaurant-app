@@ -49,19 +49,21 @@
     padding: 0.5rem;
 }
 
-.ab-2{
+.ab-2-main{
     width: 50%;
     display: flex;
     flex-direction: column;
-    /* padding: 1rem; */
+    
+}
+.ab-2{
     margin: 1rem;
 }
-.ab-2 h5{
+.abt-mini{
     font-family: Pacifico, cursive;
     margin-bottom: 0.5rem;
     color: #FEA116 !important;
 }
-.ab-2 h1{
+.abt-head{
     margin-bottom: 1.5rem;
 }
 .ab-2 p{
@@ -110,7 +112,7 @@
     .ab-1{
         width: 100%;
     }
-    .ab-2{
+    .ab-2-main{
         width: 100%;
     }
     .exp-sec{
