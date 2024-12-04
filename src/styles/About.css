@@ -65,6 +65,7 @@
 }
 .abt-head{
     margin-bottom: 1.5rem;
+    font-size: var(--section-main-heading);
 }
 .ab-2 p{
     margin-bottom: 1.5rem;
@@ -104,6 +105,24 @@
 }
 
 
+@media screen and (max-width: 925px) {
+    .about-section{
+        flex-direction:column;
+    }
+    .ab-1{
+        width: 100%;
+    }
+    .ab-2-main{
+        width: 100%;
+    }
+    .ab-2{
+        margin: 2rem 3rem;
+    }
+    .exp-sec{
+        justify-content: flex-start;
+        gap: 1.5rem;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .about-section{
@@ -119,10 +138,19 @@
         justify-content: flex-start;
         gap: 1.5rem;
     }
+    .abt-head{
+        font-size: var(--main-heading-md);
+    }
 }
 
 @media screen and (max-width: 500px) {
     .exp-sec{
         flex-direction: column;
+    }
+    .ab-2{
+        margin: 2rem 1rem;
+    }
+    .abt-head{
+        font-size: var(--main-heading-sm);
     }
 }

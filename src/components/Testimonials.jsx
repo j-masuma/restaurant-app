@@ -35,7 +35,7 @@ const test_info = [
 function Testimonials() {
   return (
     <div className="tests">
-      <h5>___ Testimonials ___</h5>
+      <h5 className='minitxt'>___ Testimonials ___</h5>
       <h1>Our Client Says!!!</h1>
       <Swiper
         slidesPerView={3} 

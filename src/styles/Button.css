@@ -1,9 +1,9 @@
 .btn{
     padding: 0.75rem 1.5rem;
-    background-color: #FEA116;
+    background-color: var(--main-color);
     border: 1px solid transparent;
     border-radius: 2px;
-    border-color: #FEA116;
+    border-color: var(--main-color);
     color: white;
     font-size: 1rem;
     font-weight: 500;
@@ -13,10 +13,10 @@
 
 .big-btn{
     padding: 1rem 3rem;
-    background-color: #FEA116;
+    background-color: var(--main-color);
     border: 1px solid transparent;
     border-radius: 2px;
-    border-color: #FEA116;
+    border-color: var(--main-color);
     color: white;
     font-size: 1rem;
     font-weight: 500;

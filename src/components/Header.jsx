@@ -30,10 +30,10 @@ function Header() {
             <NavLink to='/about' className='navlinks'>ABOUT</NavLink>
           </li>
           <li >
-            <NavLink to='/' className='navlinks'>SERVICE</NavLink>
+            <NavLink to='/service' className='navlinks'>SERVICE</NavLink>
           </li>
           <li >
-            <NavLink to='/' className='navlinks'>MENU</NavLink>
+            <NavLink to='/menu' className='navlinks'>MENU</NavLink>
           </li>
           
         </ul>

@@ -11,7 +11,7 @@ function AboutHeroSection() {
             /
             <Link className='navs'>PAGES</Link>
             /
-            <Link className='navs'>ABOUT</Link>
+            <Link className='navs-1'>ABOUT</Link>
         </span>
     </div>
   )

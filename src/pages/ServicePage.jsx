@@ -1,8 +1,14 @@
 import React from 'react'
+import ServiceHeroSection, { ExploreService } from '../components/ServiceHeroSection'
+import Service from '../components/Services'
 
 function ServicePage() {
   return (
-    <div>ServicePage</div>
+    <div>
+      <ServiceHeroSection/>
+      <ExploreService/>
+      <Service/>
+    </div>
   )
 }
 

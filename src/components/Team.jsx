@@ -26,7 +26,7 @@ const team_info=[
 function Team() {
   return (
     <div className='team-sec'>
-      <h5>___ Team Members ___</h5>
+      <h5 className='minitxt'>___ Team Members ___</h5>
       <h1>Our Master Chefs</h1>
       <div className='cards-sec'>
         {

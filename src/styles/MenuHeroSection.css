@@ -1,4 +1,4 @@
-.abt-main{
+.menu-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,8 +10,9 @@
     height: 60vh;
     overflow: hidden;
     color: white;
+    margin-bottom: 3rem;
 }
-.abt-main h1{
+.menu-main h1{
     font-family: "Nunito", sans-serif;
     font-size: var(--section-main-heading);
 }
@@ -35,7 +36,8 @@
 }
 
 @media screen and (max-width: 768px) {
-    .abt-main h1{
+    .menu-main h1{
         font-size: var(--main-heading-md);
     }
+    
 }

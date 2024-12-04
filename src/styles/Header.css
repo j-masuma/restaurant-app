@@ -13,7 +13,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
-    color: #fea116;
+    color: var(--main-color);
 }
 
 .nav ul{
@@ -33,7 +33,7 @@
 }
 
 .navlinks:hover {
-    color: #fea116;
+    color: var(--main-color);
 }
 
 .menu-toggle {
@@ -48,7 +48,7 @@
 .bar {
     width: 25px;
     height: 3px;
-    background-color: #fea116;
+    background-color: var(--main-color);
 }
 
 .button-container {
@@ -94,3 +94,5 @@
         display: none;
     }
 }
+
+

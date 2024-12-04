@@ -1,4 +1,4 @@
-.abt-main{
+.s-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +11,7 @@
     overflow: hidden;
     color: white;
 }
-.abt-main h1{
+.s-main h1{
     font-family: "Nunito", sans-serif;
     font-size: var(--section-main-heading);
 }
@@ -28,14 +28,27 @@
     color: var(--main-color);
     text-decoration: none;
 }
-
 .navs-1{
     color: white;
     text-decoration: none;
 }
+.explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    padding-bottom: 0rem;
+}
+.explore h5{
+    margin-bottom: 0.5rem;
+    color: var(--main-color);
+}
+
 
 @media screen and (max-width: 768px) {
-    .abt-main h1{
+    .s-main h1{
         font-size: var(--main-heading-md);
     }
+    
 }

@@ -1,33 +1,44 @@
 .hero-section{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-image:linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url('/public/images/bg-hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: fit-content;
-    padding: 3rem 2rem;
+    padding: 3rem 0rem; 
     overflow: hidden;
     box-sizing: border-box;
     color: white;
+    width: 100%;
+}
+.hero-left{
+  width: 50%;
+  padding: 0rem 1.5rem;
 }
 .hero-left h1{
-    font-family: Pacifico, cursive;
-    font-size: 4rem;
+    font-family:  "Nunito", sans-serif;
+    font-size: var(--hero-heading);
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 1rem;
 }
 .hero-left p{
-    font-size:1.25rem ;
+  font-family: "Heebo", sans-serif;
     margin-bottom: 1.5rem;
+    line-height: 1.5;
+
+}
+.hero-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
 }
 .hero-right img{   
-    /* width: 60%;
-    height: 60%; */
-    width: 520px;
-    height: 520px;
+    width: 90%;
+    height: 90%;
     animation: rotate 60s linear infinite;
 }
 @keyframes rotate {
@@ -39,20 +50,43 @@
     }
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
    .hero-section{
        flex-direction: column;
        height: fit-content;
    }
    .hero-left{
-        text-align: center;
-        margin-top: 3rem;
+      width: 100%;
+      text-align: center;
+      margin-top: 3rem 0rem;
    }
+   .hero-left h1{
+    font-size: var(--hero-md-heading);
+   }
+   .hero-left p{
+    width: 87%;
+    
+    justify-self: center;
+}
    .hero-right{
+    width: 100%;
     padding-top: 3rem;
    }
    .hero-right img{   
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 }
+}
+
+
+@media screen and (max-width: 550px) {
+    .hero-left h1{
+      font-size: var(--hero-sm-heading);
+    }
+}
+
+@media screen and (max-width: 300px) {
+  .hero-left h1{
+    font-size: 32px;
+  }
 }

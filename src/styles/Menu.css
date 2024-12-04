@@ -2,11 +2,12 @@
     text-align: center;
 }
 .menu-sec h5{
-    font-size: 20px;
     margin-bottom: 0.5rem;
+    font-family: Pacifico, cursive;
+    color: var(--main-color);
 }
 .menu-sec h1{
-    font-size: 40px;
+    font-size: var(--section-main-heading);
     margin-bottom: 3rem;
 }
 .category{
@@ -50,13 +51,30 @@
     color: #6c757d;    ;
 }
 .price{
-    color: #FEA116;
+    color: var(--main-color);
 }
 
 
 
 @media screen and (max-width: 768px) {
+    .menu-part2{
+        align-content: center;
+    }
     .menu-list{
-        flex: 0 1 calc(80%);
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 80%;
+        justify-content: center;
+        gap: 0.75rem;
+    }
+    .menu-sec h1{
+        font-size: var(--main-heading-md);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .menu-sec h1{
+        font-size: var(--main-heading-sm);
     }
 }

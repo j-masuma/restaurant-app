@@ -7,10 +7,15 @@
 
 .tests h5 {
     margin-bottom: 0.5rem;
+    
 }
-
+.minitxt{
+    font-family: Pacifico, cursive;
+    color: var(--main-color);
+}
 .tests h1 {
     margin-bottom: 3rem;
+    font-size: var(--section-main-heading);
 }
 
 .swiper {
@@ -46,7 +51,7 @@
 }
 
 .swiper-pagination-bullet {
-    background-color: #fea116;
+    background-color: var(--main-color);;
     width: 10px;
     height: 10px;
     opacity: 1;
@@ -63,5 +68,15 @@
 @media screen and (max-width: 768px) {
     .test-cards {
         min-width: fit-content;
+    }
+    .tests h1 {
+        font-size: var(--main-heading-md);
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .tests h1 {
+        font-size: var(--main-heading-sm);
     }
 }

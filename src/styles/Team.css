@@ -3,11 +3,15 @@
     text-align: center;
 }
 .team-sec h5{
-    font-size: 20px;
     margin-bottom: 0.5rem;
+
+}
+.minitxt{
+    font-family: Pacifico, cursive;
+    color: var(--main-color);
 }
 .team-sec h1{
-    font-size: 40px;
+    font-size: var(--section-main-heading);
     margin-bottom: 3rem;
 }
 .cards-sec{
@@ -31,4 +35,18 @@
 .team-cards{
     padding: 1rem 0rem;
     box-shadow: 0 2px 4px rgba(123, 122, 122, 0.2);
+}
+
+
+@media screen and (max-width: 768px) {
+    .team-sec h1{
+        font-size: var(--main-heading-md);
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .team-sec h1{
+        font-size: var(--main-heading-sm);
+    }
 }
