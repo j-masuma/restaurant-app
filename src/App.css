@@ -1,5 +1,5 @@
 *{
-  font-family: Nunito, sans-serif;
+  font-family: "Nunito", sans-serif;
   margin: 0%;
   padding: 0%;
 }
@@ -22,33 +22,15 @@ small {
   /* Typography */
   --hero-heading: 5.5vw; /* use h1 */
   --section-main-heading: 40px; /* use h1 */
-  --section-sub-heading:22px; /* use p */
-  --main-text-lg:20px; /* for P */
   
   /* @media(1200) */
   --main-heading-lg: 36px;
-  --sub-heading-lg:20px;
-  --text-lg:18px; /* for P */
 
   /* @media(786) */
   --hero-md-heading:7vw;
   --main-heading-md: 30px;
-  --sub-heading-md:18px;
-  --text-md:16px; /* for P */
 
   /* @media(480) */
   --hero-sm-heading:8vw;
-  /* --main-heading-sm: 24px; */
   --main-heading-sm: 28px;
-  /* --sub-heading-sm:16px; */
-  --sub-heading-sm:3.2vw;
-  /* --text-sm:14px;  */
-  --text-sm:2.8vw; /* for P */
-  
-
-  /* width container */
-  --container-xl:87%;
-  --container-lg: 90%;
-  --container-md:94%;
-  --container-sm:97%;
 }
