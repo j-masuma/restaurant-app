@@ -5,21 +5,20 @@ function About() {
   return (
     <div className='about-section'>
         <div className='ab-1'>
-          <div className='img'>
-              <div className='img-1'>
-                <img src="/images/about-1.jpg" width={259} height={259} alt="About" />
-              </div>
-              <div className='img-2'>
-                <img src="/images/about-2.jpg" width={195} height={195} alt="About" />
-              </div>
-          </div>
-          
+            <div className='img'>
+                <div className='img-1'>
+                  <img src="/images/about-1.jpg" alt="About" />
+                </div>
+                <div className='img-2'>
+                  <img src="/images/about-2.jpg"  alt="About" />
+                </div>
+            </div>
           <div className='img'>
               <div className='img-3'>
-                <img src="/images/about-3.jpg" width={195} height={195} alt="About" />
+                <img src="/images/about-3.jpg"  alt="About" />
               </div>
-              <div className='img-1'>
-                <img src="/images/about-4.jpg" width={259} height={259} alt="About" />
+              <div className='img-4'>
+                <img src="/images/about-4.jpg"  alt="About" />
               </div>
           </div>
 

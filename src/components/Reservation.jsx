@@ -22,12 +22,13 @@ function Reservation() {
                 </div>
                 <div className="form-row">
                         <input type="datetime-local" placeholder="Date & Time" required />
-                        <select required>
+                        <input type="text" placeholder="No of people" required />
+                        {/* <select required>
                             <option value="1">No Of People: 1</option>
                             <option value="2">No Of People: 2</option>
                             <option value="3">No Of People: 3</option>
                             <option value="4">No Of People: 4</option>
-                        </select>
+                        </select> */}
                 </div>
                 <textarea placeholder="Special Request" rows="4"></textarea>
                 <BigButton text='BOOK NOW'/>
